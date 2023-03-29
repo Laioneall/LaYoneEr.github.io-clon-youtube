@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+.container-chips {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  
+
+}
+.container-chips::-webkit-scrollbar{
+  display: none;
+  width: 3px;
+  background-color: #ddd;
+  height: 5px;
+
+}
+.container-chips::-webkit-scrollbar-thumb{
+  background-color: #444;
+}
+
+.chip {
+  margin: 20px 8px;
+  background-color: #f2f2f2;
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #474747;
+  
+ 
+  
+}
+
+.chip:hover {
+  background-color: #d6d6d6;
+}
+
+.container-chips:hover::-webkit-scrollbar {
+  display: block;
+
+  
+}

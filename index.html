@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./tag-section/tag-section.css" />
+    <link
+      rel="shortcut icon"
+      href="img/icono-premium.png"
+      type="image/x-icon"
+    />
+    <title>YouTube</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="logo-bar">
+        <div class="container-nav" id="icono-bar">
+          <img src="img/icono-nav-bar.png" class="nav-bar" />
+        </div>
+
+        <img src="img/youtube-logo.png" alt="" class="logo" />
+      </div>
+      <div class="center" id="center">
+        <div class="container-search">
+          <input type="text" placeholder="Buscar" id="buscar" />
+          <div class="button-search">
+            <img src="img/icono-search.png" />
+          </div>
+        </div>
+        <div class="container-micro">
+          <img src="img/icono-microphone.png" class="micro" />
+        </div>
+      </div>
+      <div class="end">
+        <div class="item-end">
+          <img src="img/icono-camera.png" class="camera" />
+        </div>
+        <div class="item-end">
+          <img src="img/icono-alarm.png" />
+        </div>
+        <img
+          src="https://lh3.googleusercontent.com/ogw/AAEL6siFHbk4gMH-cymVawuS6ftSC4bcmhxWPoD6I4C7gw=s32-c-mo"
+          alt=""
+          class="logo-canal"
+        />
+      </div>
+    </header>
+
+    <!-- barras laterales -->
+    <section class="bar-lateral" id="bar-lateral">
+      <!-- barra grande -->
+      <div id="big-menu" class="">
+        <ul class="options">
+          <li>
+            <a href="#">
+              <img src="img/icono-home.png" />
+              <span class="text">Inicio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/Shorts.png.png" />
+              <span class="text">Shorts</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-suscripciones.png" />
+              <span class="text">Subscripciones</span>
+            </a>
+          </li>
+          <hr />
+        </ul>
+
+        <ul class="options" id="library">
+          <li>
+            <a href="#">
+              <img src="img/icono-library.png" />
+              <span class="text">Mi Biblioteca</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-historial.png" />
+              <span class="text">Historial</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/misvideos-icon.png" />
+              <span class="text">Mis Videos</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-later.png" />
+              <span class="text">Ver más tarde</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-likes.png" />
+              <span class="text">Videos que me gustan</span>
+            </a>
+          </li>
+
+          <hr />
+        </ul>
+
+        <ul class="options" id="subscriptions">
+          <h3>Subscripciones</h3>
+          <li>
+            <a href="#">
+              <img src="img/marciano-perfil.jpg" />
+              <span class="text"> MARCIANOTECH </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/canal2.jpeg" />
+              <span class="text">Plazti</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/alofoke-perfil.jpg" />
+              <span class="text">Alofokeradioshow</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/channels4_profile.jpg" />
+              <span class="text">Nate Gentile</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/canal5.jpeg" />
+              <span class="text">National Geographic</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/clipset.jpg" />
+              <span class="text">clipset</span>
+            </a>
+          </li>
+          <hr />
+        </ul>
+
+        <ul class="options" id="explorer">
+          <h3>Explorar</h3>
+          <li>
+            <a href="#">
+              <img src="img/icono-explorer.png" />
+              <span class="text">Explorar</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-music.png" />
+              <span class="text">Música</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-movies.png" />
+              <span class="text">Películas</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-live.png" />
+              <span class="text">En directo</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-games.png" />
+              <span class="text">Video Juegos</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-news.png" />
+              <span class="text">Noticias</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/deportes-icon.png" />
+              <span class="text">Deportes</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-learn.png" />
+              <span class="text">Aprendizaje</span>
+            </a>
+          </li>
+          <hr />
+        </ul>
+
+        <ul class="options" id="moreyoutube">
+          <h3>Mas de YouTube</h3>
+          <li>
+            <a href="#">
+              <img src="img/icono-premium.png" />
+              <span class="text">YouTube Premium</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-creator.png" />
+              <span class="text">Creator Studio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/youtube-music.png" />
+              <span class="text">YouTube Music</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-kids.png" />
+              <span class="text">YouTube Kids</span>
+            </a>
+          </li>
+
+          <hr />
+        </ul>
+
+        <ul class="options" id="config">
+          <li>
+            <a href="#">
+              <img src="img/settings-icon.png" />
+              <span class="text">Configuración</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-complaints.png" />
+              <span class="text">Historial de denuncias</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icono-help.png" />
+              <span class="text">Ayuda</span>
+            </a>
+          </li>
+          <hr />
+        </ul>
+        
+
+        <!----links-->
+        <div class="links">
+          <a href="#">Información</a>
+          <a href="#">Prensa</a>
+          <a href="#">Derechos de autor</a>
+          <a href="#">Contactar</a>
+          <a href="#">Creadores</a>
+          <a href="#">Publicidad</a>
+          <a href="#">Desarrolladores</a>
+        </div>
+        <div class="links">
+          <a href="#">Términos</a>
+          <a href="#">Privacidad</a>
+          <a href="#">Pólitica y seguridad</a>
+          <a href="#">Cómo funciona YouTube</a>
+          <a href="#">Probar funciones nuevas</a>
+        </div>
+        <span class="google">© 2023 Google LLC</span>
+      </div>
+
+      <!-- barra pequeña -->
+      <div id="little-menu" class="little-menu ocultar">
+        <ul class="options">
+          <li>
+            <a href="#">
+              <img
+                src="https://img.icons8.com/ios-glyphs/60/null/home-page--v1.png"
+              />
+              <span class="text">Inicio</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="https://img.icons8.com/ios-glyphs/30/null/attach.png" />
+              <span class="text">Shorts</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="https://img.icons8.com/ios/50/null/video-playlist.png"
+              />
+              <span class="text">Subscripciones</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="https://img.icons8.com/ios/50/null/personal-video-recorder-menu.png"
+              />
+              <span class="text">Mi Biblioteca</span>
+            </a>
+          </li>
+          <hr />
+        </ul>
+      </div>
+    </section>
+
+    <!-- sección de  -->
+    <!--/////////////////////////////////////////////////////////-->
+    <section class="videos" id="videos">
+      <div class="container-chips">
+        <div class="chip">
+          <p>Todo</p>
+        </div>
+        <div class="chip">
+          <p>Macintosh</p>
+        </div>
+        <div class="chip">
+          <p>Videojuegos</p>
+        </div>
+        <div class="chip">
+          <p>Hardware Informatico</p>
+        </div>
+        <div class="chip">
+          <p>Musica</p>
+        </div>
+        <div class="chip">
+          <p>Mixes</p>
+        </div>
+        <div class="chip">
+          <p>Control de Videos</p>
+        </div>
+        <div class="chip">
+          <p>En Directo</p>
+        </div>
+        <div class="chip">
+          <p>Apple</p>
+        </div>
+        <div class="chip">
+          <p>Apple</p>
+        </div>
+        <div class="chip">
+          <p>Todo</p>
+        </div>
+        <div class="chip">
+          <p>Macintosh</p>
+        </div>
+        <div class="chip">
+          <p>Videojuegos</p>
+        </div>
+        <div class="chip">
+          <p>Hardware Informatico</p>
+        </div>
+        <div class="chip">
+          <p>Musica</p>
+        </div>
+        <div class="chip">
+          <p>Mixes</p>
+        </div>
+        <div class="chip">
+          <p>Control de Videos</p>
+        </div>
+        <div class="chip">
+          <p>En Directo</p>
+        </div>
+        
+      </div>
+    </section>
+    <!--/////////////////////////////////////////////////////////-->
+
+    <!-- sección de videos -->
+    <section class="videos" id="videos">
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/maxresdefault.jpg" alt="" />
+            <span class="time">15:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/dotol-perfil.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#"
+                    >LA REALIDAD DEL PESCADO DE BOCA CHICA - EL DOTOL NASTRA</a
+                  >
+                </h3>
+                <a href="#" class="name-channel"> El Dotol Nastra </a>
+                <div class="metadata">
+                  <span>122.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 3 días</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="img/icono-historial.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="img/icono-add.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/maluma-miniatura.jpg" alt="" />
+            <span class="time">2:30</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/alofoke-perfil.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#"
+                    >MALUMA - LA ENTREVISTA MAS DIVERTIDA DE TODA SU VIDA
+                    (ALOFOKE SIN CENSURA)</a
+                  >
+                </h3>
+                <a href="#" class="name-channel">Alofokeradioshow</a>
+                <div class="metadata">
+                  <span>35.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 2 meses</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/nategentileimg.jpg" alt="" />
+            <span class="time">15:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/channels4_profile.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#"
+                    >¿Cómo funciona ChatGPT? La revolución de la Inteligencia
+                    Artificial</a
+                  >
+                </h3>
+                <a href="#" class="name-channel">Nate Gentile</a>
+                <div class="metadata">
+                  <span>300.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 4 meses</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/sfdx-miniatura.jpg" alt="" />
+            <span class="time">2:00:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/sfdx-profile.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#">Mira lo que encontré 😨👉 I9 11980HK</a>
+                </h3>
+                <a href="#" class="name-channel"> Sfdx Show</a>
+                <div class="metadata">
+                  <span>150.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 2 días</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/nategentile-miniatura-2.jpg" alt="" />
+            <span class="time">15:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/channels4_profile.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#"
+                    >Creo un PC de 12.000€ para Axozer y es ELEGANCIA PURA
+                  </a>
+                </h3>
+                <a href="#" class="name-channel">Nate Gentile</a>
+                <div class="metadata">
+                  <span>200.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 8 años</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/xokas-miniatura.jpg" alt="" />
+            <span class="time">15:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/xokas-perfil.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#"
+                    >GRAN MENÚ de IBAI 🎪 ¿EL MEJOR de TODOS? 🤤 Xokas Eats
+                    #33</a
+                  >
+                </h3>
+                <a href="#" class="name-channel">Xokas</a>
+                <div class="metadata">
+                  <span>6000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 5 días</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/giocode-miniautura.jpg" alt="" />
+            <span class="time">35:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/GIOCODE-perfil.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#">WINDOWS 7 MORIRÁ POR FIN EN 2023 GioCode</a>
+                </h3>
+                <a href="#" class="name-channel">Coder</a>
+                <div class="metadata">
+                  <span>302.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 2 meses</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/guerra-miniatur.jpg" alt="" />
+            <span class="time">2:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/elded-perfil.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#">RECUERDOS DE GUERRA</a>
+                </h3>
+                <a href="#" class="name-channel">ELDED</a>
+                <div class="metadata">
+                  <span>122.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 3 días</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/relaxingend-miniautura.jpg" alt="" />
+            <span class="time">15:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/relaxingend-perfil.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#">The NVIDIA RTX 4090 Unboxing - A MASSIVE GPU! </a>
+                </h3>
+                <a href="#" class="name-channel">TheRelaxingEnd</a>
+                <div class="metadata">
+                  <span>122.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 3 días</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/savitar-miniatura.jpg" alt="" />
+            <span class="time">15:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/s4vitar-perfil.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#">QUE TANTO HA AVANZADO EL HACKING</a>
+                </h3>
+                <a href="#" class="name-channel">S4VITAAR</a>
+                <div class="metadata">
+                  <span>122.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 3 días</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="img/icono-historial.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="img/icono-add.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/luisito-miniatura.jpg" alt="" />
+            <span class="time">2:30</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/luisito-perfil.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#"
+                    >Visité el templo sagrado del ‘DIOS MONO’ en la India 🐒</a
+                  >
+                </h3>
+                <a href="#" class="name-channel">Luisito Comunica</a>
+                <div class="metadata">
+                  <span>35.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 2 meses</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container-item">
+        <div class="item">
+          <div class="img-container">
+            <img src="img/nateeee-miniatura.jpg" alt="" />
+            <span class="time">15:00</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="img-channel">
+                <img src="img/channels4_profile.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="info">
+                <h3>
+                  <a href="#">¿La nueva Apple? ¡Todo sobre Nothing!</a>
+                </h3>
+                <a href="#" class="name-channel">Nate Gentile</a>
+                <div class="metadata">
+                  <span>300.000 visualizaciones</span>
+                  &#9679;
+                  <span>Emitido hace 4 meses</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons-video" id="buttons-video">
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/clock--v1.png" />
+              Ver mas tarde
+            </button>
+            <button>
+              <img src="https://img.icons8.com/ios/50/null/video--v1.png" />
+              Añadir a la cola
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

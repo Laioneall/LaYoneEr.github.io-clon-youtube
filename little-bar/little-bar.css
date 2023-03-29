@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.little-menu {
+  display: flex;
+}
+.little-menu li a {
+  display: block !important;
+  font-size: 10px !important;
+  padding: 10px 0 !important;
+  position: relative;
+  margin-left: 0px !important;
+}
+.little-menu li a img {
+  margin-left: 20px !important;
+  text-align: center;
+}
+.little-menu li a .text {
+  display: block;
+  text-align: center;
+}
+.little-menu li {
+  margin-bottom: 10px;
+}
